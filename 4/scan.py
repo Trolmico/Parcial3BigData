@@ -10,7 +10,6 @@ table = dynamodb.Table('Animales')
 fe = Key('indice').begins_with("T")
 pe = "#idx, ruta, informacion"
 ean = { "#idx": "indice", }
-esk = None
 
 
 response = table.scan(
