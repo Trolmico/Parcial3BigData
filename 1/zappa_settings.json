@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "app_function": "app.handler",
+        "profile_name": "default",
+        "project_name": "1",
+        "runtime": "python3.8",
+        "s3_bucket": "zappa-smwejp5q8",
+        "keep_warm": false,
+        "role_name": "LabRole",
+        "manage_roles": false,
+        "apigateway_enabled": false,
+        "aws_region": "us-east-1"
+    }
+}
